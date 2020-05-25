@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F190CED230FB56F009955C6 /* 压缩后.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2F190CEC230FB56F009955C6 /* 压缩后.mp4 */; };
+		2F190D18231359A7009955C6 /* LYVideoCompostion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F190D16231359A7009955C6 /* LYVideoCompostion.m */; };
+		2F190D1B2313625B009955C6 /* LYOpenGLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F190D1A2313625B009955C6 /* LYOpenGLManager.m */; };
+		2F190D1D23137AF0009955C6 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F190D1C23137AF0009955C6 /* qq.png */; };
+		2F190D202313DF6F009955C6 /* BackTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F190D1F2313DF6F009955C6 /* BackTexture.m */; };
+		2F190D232313EA27009955C6 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F190D212313EA27009955C6 /* shaderf.fsh */; };
+		2F190D242313EA27009955C6 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F190D222313EA27009955C6 /* shaderv.vsh */; };
+		2F5E97262301C41700C05063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E97252301C41700C05063 /* AppDelegate.m */; };
+		2F5E97292301C41700C05063 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E97282301C41700C05063 /* ViewController.m */; };
+		2F5E972C2301C41700C05063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E972A2301C41700C05063 /* Main.storyboard */; };
+		2F5E972E2301C41800C05063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E972D2301C41800C05063 /* Assets.xcassets */; };
+		2F5E97312301C41800C05063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E972F2301C41800C05063 /* LaunchScreen.storyboard */; };
+		2F5E97342301C41800C05063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E97332301C41800C05063 /* main.m */; };
+		2F5E973C2301C49C00C05063 /* MGPointParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E973B2301C49C00C05063 /* MGPointParticleEffect.m */; };
+		2F5E973F2301C4F100C05063 /* MGVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E973E2301C4F100C05063 /* MGVertexAttribArrayBuffer.m */; };
+		2F5E97412301C56B00C05063 /* MGPointParticleShder.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E97402301C56B00C05063 /* MGPointParticleShder.vsh */; };
+		2F5E97432301C59000C05063 /* MGPointParticleShder.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E97422301C59000C05063 /* MGPointParticleShder.fsh */; };
+		2F5E974C23030B0B00C05063 /* allergen_describe_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E974623030B0B00C05063 /* allergen_describe_bg@2x.png */; };
+		2F5E974D23030B0B00C05063 /* pull_down_rain_gray_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E974723030B0B00C05063 /* pull_down_rain_gray_1.png */; };
+		2F5E974E23030B0B00C05063 /* pull_down_rain_gray_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E974823030B0B00C05063 /* pull_down_rain_gray_2.png */; };
+		2F5E974F23030B0B00C05063 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E974923030B0B00C05063 /* ball.png */; };
+		2F5E975023030B0B00C05063 /* dw_bg_m_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E974A23030B0B00C05063 /* dw_bg_m_5.png */; };
+		2F5E975123030B0B00C05063 /* pull_down_rain_gray_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E974B23030B0B00C05063 /* pull_down_rain_gray_3.png */; };
+		2F808235231C0A8D000F1D24 /* CCAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F808234231C0A8D000F1D24 /* CCAssetReader.m */; };
+		2F87DC482477B855009C2ED4 /* ParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87DC472477B855009C2ED4 /* ParticleView.m */; };
+		2F87DC4A2477CB74009C2ED4 /* IMG_5714.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 2F87DC492477CB74009C2ED4 /* IMG_5714.MOV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F190CEC230FB56F009955C6 /* 压缩后.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "压缩后.mp4"; sourceTree = "<group>"; };
+		2F190D16231359A7009955C6 /* LYVideoCompostion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYVideoCompostion.m; sourceTree = "<group>"; };
+		2F190D17231359A7009955C6 /* LYVideoCompostion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYVideoCompostion.h; sourceTree = "<group>"; };
+		2F190D192313625B009955C6 /* LYOpenGLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYOpenGLManager.h; sourceTree = "<group>"; };
+		2F190D1A2313625B009955C6 /* LYOpenGLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOpenGLManager.m; sourceTree = "<group>"; };
+		2F190D1C23137AF0009955C6 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		2F190D1E2313DF6F009955C6 /* BackTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackTexture.h; sourceTree = "<group>"; };
+		2F190D1F2313DF6F009955C6 /* BackTexture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackTexture.m; sourceTree = "<group>"; };
+		2F190D212313EA27009955C6 /* shaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
+		2F190D222313EA27009955C6 /* shaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		2F5E97212301C41700C05063 /* 视频加粒子动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频加粒子动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5E97242301C41700C05063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F5E97252301C41700C05063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F5E97272301C41700C05063 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F5E97282301C41700C05063 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F5E972B2301C41700C05063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F5E972D2301C41800C05063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F5E97302301C41800C05063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F5E97322301C41800C05063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5E97332301C41800C05063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F5E973A2301C49C00C05063 /* MGPointParticleEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPointParticleEffect.h; sourceTree = "<group>"; };
+		2F5E973B2301C49C00C05063 /* MGPointParticleEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPointParticleEffect.m; sourceTree = "<group>"; };
+		2F5E973D2301C4F100C05063 /* MGVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		2F5E973E2301C4F100C05063 /* MGVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		2F5E97402301C56B00C05063 /* MGPointParticleShder.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = MGPointParticleShder.vsh; sourceTree = "<group>"; };
+		2F5E97422301C59000C05063 /* MGPointParticleShder.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = MGPointParticleShder.fsh; sourceTree = "<group>"; };
+		2F5E974623030B0B00C05063 /* allergen_describe_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "allergen_describe_bg@2x.png"; sourceTree = "<group>"; };
+		2F5E974723030B0B00C05063 /* pull_down_rain_gray_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pull_down_rain_gray_1.png; sourceTree = "<group>"; };
+		2F5E974823030B0B00C05063 /* pull_down_rain_gray_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pull_down_rain_gray_2.png; sourceTree = "<group>"; };
+		2F5E974923030B0B00C05063 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		2F5E974A23030B0B00C05063 /* dw_bg_m_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dw_bg_m_5.png; sourceTree = "<group>"; };
+		2F5E974B23030B0B00C05063 /* pull_down_rain_gray_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pull_down_rain_gray_3.png; sourceTree = "<group>"; };
+		2F808233231C0A8D000F1D24 /* CCAssetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAssetReader.h; sourceTree = "<group>"; };
+		2F808234231C0A8D000F1D24 /* CCAssetReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAssetReader.m; sourceTree = "<group>"; };
+		2F87DC462477B855009C2ED4 /* ParticleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleView.h; sourceTree = "<group>"; };
+		2F87DC472477B855009C2ED4 /* ParticleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleView.m; sourceTree = "<group>"; };
+		2F87DC492477CB74009C2ED4 /* IMG_5714.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5714.MOV; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F5E971E2301C41700C05063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F190CC5230B8D3C009955C6 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E973A2301C49C00C05063 /* MGPointParticleEffect.h */,
+				2F5E973B2301C49C00C05063 /* MGPointParticleEffect.m */,
+				2F5E973D2301C4F100C05063 /* MGVertexAttribArrayBuffer.h */,
+				2F5E973E2301C4F100C05063 /* MGVertexAttribArrayBuffer.m */,
+				2F5E97402301C56B00C05063 /* MGPointParticleShder.vsh */,
+				2F5E97422301C59000C05063 /* MGPointParticleShder.fsh */,
+				2F190D1E2313DF6F009955C6 /* BackTexture.h */,
+				2F190D1F2313DF6F009955C6 /* BackTexture.m */,
+				2F190D222313EA27009955C6 /* shaderv.vsh */,
+				2F190D212313EA27009955C6 /* shaderf.fsh */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		2F190D1523135956009955C6 /* Compisition */ = {
+			isa = PBXGroup;
+			children = (
+				2F808233231C0A8D000F1D24 /* CCAssetReader.h */,
+				2F808234231C0A8D000F1D24 /* CCAssetReader.m */,
+				2F190D192313625B009955C6 /* LYOpenGLManager.h */,
+				2F190D1A2313625B009955C6 /* LYOpenGLManager.m */,
+				2F190D17231359A7009955C6 /* LYVideoCompostion.h */,
+				2F190D16231359A7009955C6 /* LYVideoCompostion.m */,
+			);
+			path = Compisition;
+			sourceTree = "<group>";
+		};
+		2F5E97182301C41700C05063 = {
+			isa = PBXGroup;
+			children = (
+				2F5E97232301C41700C05063 /* Particle */,
+				2F5E97222301C41700C05063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F5E97222301C41700C05063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E97212301C41700C05063 /* 视频加粒子动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F5E97232301C41700C05063 /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				2F5E974523030AC700C05063 /* res */,
+				2F5E97242301C41700C05063 /* AppDelegate.h */,
+				2F5E97252301C41700C05063 /* AppDelegate.m */,
+				2F5E97272301C41700C05063 /* ViewController.h */,
+				2F5E97282301C41700C05063 /* ViewController.m */,
+				2F87DC462477B855009C2ED4 /* ParticleView.h */,
+				2F87DC472477B855009C2ED4 /* ParticleView.m */,
+				2F190D1523135956009955C6 /* Compisition */,
+				2F190CC5230B8D3C009955C6 /* Kit */,
+				2F5E972A2301C41700C05063 /* Main.storyboard */,
+				2F5E972D2301C41800C05063 /* Assets.xcassets */,
+				2F5E972F2301C41800C05063 /* LaunchScreen.storyboard */,
+				2F5E97322301C41800C05063 /* Info.plist */,
+				2F5E97332301C41800C05063 /* main.m */,
+			);
+			path = Particle;
+			sourceTree = "<group>";
+		};
+		2F5E974523030AC700C05063 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				2F87DC492477CB74009C2ED4 /* IMG_5714.MOV */,
+				2F190D1C23137AF0009955C6 /* qq.png */,
+				2F190CEC230FB56F009955C6 /* 压缩后.mp4 */,
+				2F5E974623030B0B00C05063 /* allergen_describe_bg@2x.png */,
+				2F5E974923030B0B00C05063 /* ball.png */,
+				2F5E974A23030B0B00C05063 /* dw_bg_m_5.png */,
+				2F5E974723030B0B00C05063 /* pull_down_rain_gray_1.png */,
+				2F5E974823030B0B00C05063 /* pull_down_rain_gray_2.png */,
+				2F5E974B23030B0B00C05063 /* pull_down_rain_gray_3.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F5E97202301C41700C05063 /* 视频加粒子动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5E97372301C41800C05063 /* Build configuration list for PBXNativeTarget "视频加粒子动画" */;
+			buildPhases = (
+				2F5E971D2301C41700C05063 /* Sources */,
+				2F5E971E2301C41700C05063 /* Frameworks */,
+				2F5E971F2301C41700C05063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "视频加粒子动画";
+			productName = Particle;
+			productReference = 2F5E97212301C41700C05063 /* 视频加粒子动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F5E97192301C41700C05063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "马 爱林";
+				TargetAttributes = {
+					2F5E97202301C41700C05063 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2F5E971C2301C41700C05063 /* Build configuration list for PBXProject "视频加粒子动画" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F5E97182301C41700C05063;
+			productRefGroup = 2F5E97222301C41700C05063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F5E97202301C41700C05063 /* 视频加粒子动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F5E971F2301C41700C05063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F190D242313EA27009955C6 /* shaderv.vsh in Resources */,
+				2F190D1D23137AF0009955C6 /* qq.png in Resources */,
+				2F190CED230FB56F009955C6 /* 压缩后.mp4 in Resources */,
+				2F5E974C23030B0B00C05063 /* allergen_describe_bg@2x.png in Resources */,
+				2F5E97312301C41800C05063 /* LaunchScreen.storyboard in Resources */,
+				2F5E974F23030B0B00C05063 /* ball.png in Resources */,
+				2F5E97432301C59000C05063 /* MGPointParticleShder.fsh in Resources */,
+				2F5E972E2301C41800C05063 /* Assets.xcassets in Resources */,
+				2F5E975023030B0B00C05063 /* dw_bg_m_5.png in Resources */,
+				2F87DC4A2477CB74009C2ED4 /* IMG_5714.MOV in Resources */,
+				2F5E974E23030B0B00C05063 /* pull_down_rain_gray_2.png in Resources */,
+				2F5E972C2301C41700C05063 /* Main.storyboard in Resources */,
+				2F5E975123030B0B00C05063 /* pull_down_rain_gray_3.png in Resources */,
+				2F5E97412301C56B00C05063 /* MGPointParticleShder.vsh in Resources */,
+				2F5E974D23030B0B00C05063 /* pull_down_rain_gray_1.png in Resources */,
+				2F190D232313EA27009955C6 /* shaderf.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F5E971D2301C41700C05063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5E97292301C41700C05063 /* ViewController.m in Sources */,
+				2F190D18231359A7009955C6 /* LYVideoCompostion.m in Sources */,
+				2F190D202313DF6F009955C6 /* BackTexture.m in Sources */,
+				2F190D1B2313625B009955C6 /* LYOpenGLManager.m in Sources */,
+				2F5E973C2301C49C00C05063 /* MGPointParticleEffect.m in Sources */,
+				2F5E97342301C41800C05063 /* main.m in Sources */,
+				2F87DC482477B855009C2ED4 /* ParticleView.m in Sources */,
+				2F5E973F2301C4F100C05063 /* MGVertexAttribArrayBuffer.m in Sources */,
+				2F808235231C0A8D000F1D24 /* CCAssetReader.m in Sources */,
+				2F5E97262301C41700C05063 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F5E972A2301C41700C05063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5E972B2301C41700C05063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F5E972F2301C41800C05063 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5E97302301C41800C05063 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F5E97352301C41800C05063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F5E97362301C41800C05063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F5E97382301C41800C05063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H52C2E3DJ;
+				INFOPLIST_FILE = Particle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mage.Particle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F5E97392301C41800C05063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H52C2E3DJ;
+				INFOPLIST_FILE = Particle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mage.Particle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F5E971C2301C41700C05063 /* Build configuration list for PBXProject "视频加粒子动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5E97352301C41800C05063 /* Debug */,
+				2F5E97362301C41800C05063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5E97372301C41800C05063 /* Build configuration list for PBXNativeTarget "视频加粒子动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5E97382301C41800C05063 /* Debug */,
+				2F5E97392301C41800C05063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F5E97192301C41700C05063 /* Project object */;
+}
