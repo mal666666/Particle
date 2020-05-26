@@ -10,7 +10,6 @@
 		2F190CED230FB56F009955C6 /* 压缩后.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2F190CEC230FB56F009955C6 /* 压缩后.mp4 */; };
 		2F190D18231359A7009955C6 /* LYVideoCompostion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F190D16231359A7009955C6 /* LYVideoCompostion.m */; };
 		2F190D1B2313625B009955C6 /* LYOpenGLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F190D1A2313625B009955C6 /* LYOpenGLManager.m */; };
-		2F190D1D23137AF0009955C6 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F190D1C23137AF0009955C6 /* qq.png */; };
 		2F190D202313DF6F009955C6 /* BackTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F190D1F2313DF6F009955C6 /* BackTexture.m */; };
 		2F190D232313EA27009955C6 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F190D212313EA27009955C6 /* shaderf.fsh */; };
 		2F190D242313EA27009955C6 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2F190D222313EA27009955C6 /* shaderv.vsh */; };
@@ -32,7 +31,8 @@
 		2F5E975123030B0B00C05063 /* pull_down_rain_gray_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E974B23030B0B00C05063 /* pull_down_rain_gray_3.png */; };
 		2F808235231C0A8D000F1D24 /* CCAssetReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F808234231C0A8D000F1D24 /* CCAssetReader.m */; };
 		2F87DC482477B855009C2ED4 /* ParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87DC472477B855009C2ED4 /* ParticleView.m */; };
-		2F87DC4A2477CB74009C2ED4 /* IMG_5714.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 2F87DC492477CB74009C2ED4 /* IMG_5714.MOV */; };
+		2FF21AC9247CF7CE00EBEBEB /* IMG_7112.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 2FF21AC8247CF7CE00EBEBEB /* IMG_7112.MOV */; };
+		2FF21ACB247CF8A900EBEBEB /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FF21ACA247CF8A900EBEBEB /* qq.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,6 @@
 		2F190D17231359A7009955C6 /* LYVideoCompostion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYVideoCompostion.h; sourceTree = "<group>"; };
 		2F190D192313625B009955C6 /* LYOpenGLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYOpenGLManager.h; sourceTree = "<group>"; };
 		2F190D1A2313625B009955C6 /* LYOpenGLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOpenGLManager.m; sourceTree = "<group>"; };
-		2F190D1C23137AF0009955C6 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
 		2F190D1E2313DF6F009955C6 /* BackTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackTexture.h; sourceTree = "<group>"; };
 		2F190D1F2313DF6F009955C6 /* BackTexture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackTexture.m; sourceTree = "<group>"; };
 		2F190D212313EA27009955C6 /* shaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
@@ -72,7 +71,8 @@
 		2F808234231C0A8D000F1D24 /* CCAssetReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAssetReader.m; sourceTree = "<group>"; };
 		2F87DC462477B855009C2ED4 /* ParticleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleView.h; sourceTree = "<group>"; };
 		2F87DC472477B855009C2ED4 /* ParticleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleView.m; sourceTree = "<group>"; };
-		2F87DC492477CB74009C2ED4 /* IMG_5714.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5714.MOV; sourceTree = "<group>"; };
+		2FF21AC8247CF7CE00EBEBEB /* IMG_7112.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_7112.MOV; sourceTree = "<group>"; };
+		2FF21ACA247CF8A900EBEBEB /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +156,8 @@
 		2F5E974523030AC700C05063 /* res */ = {
 			isa = PBXGroup;
 			children = (
-				2F87DC492477CB74009C2ED4 /* IMG_5714.MOV */,
-				2F190D1C23137AF0009955C6 /* qq.png */,
+				2FF21ACA247CF8A900EBEBEB /* qq.png */,
+				2FF21AC8247CF7CE00EBEBEB /* IMG_7112.MOV */,
 				2F190CEC230FB56F009955C6 /* 压缩后.mp4 */,
 				2F5E974623030B0B00C05063 /* allergen_describe_bg@2x.png */,
 				2F5E974923030B0B00C05063 /* ball.png */,
@@ -227,17 +227,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F190D242313EA27009955C6 /* shaderv.vsh in Resources */,
-				2F190D1D23137AF0009955C6 /* qq.png in Resources */,
 				2F190CED230FB56F009955C6 /* 压缩后.mp4 in Resources */,
 				2F5E974C23030B0B00C05063 /* allergen_describe_bg@2x.png in Resources */,
 				2F5E97312301C41800C05063 /* LaunchScreen.storyboard in Resources */,
 				2F5E974F23030B0B00C05063 /* ball.png in Resources */,
 				2F5E97432301C59000C05063 /* MGPointParticleShder.fsh in Resources */,
+				2FF21AC9247CF7CE00EBEBEB /* IMG_7112.MOV in Resources */,
 				2F5E972E2301C41800C05063 /* Assets.xcassets in Resources */,
 				2F5E975023030B0B00C05063 /* dw_bg_m_5.png in Resources */,
-				2F87DC4A2477CB74009C2ED4 /* IMG_5714.MOV in Resources */,
 				2F5E974E23030B0B00C05063 /* pull_down_rain_gray_2.png in Resources */,
 				2F5E972C2301C41700C05063 /* Main.storyboard in Resources */,
+				2FF21ACB247CF8A900EBEBEB /* qq.png in Resources */,
 				2F5E975123030B0B00C05063 /* pull_down_rain_gray_3.png in Resources */,
 				2F5E97412301C56B00C05063 /* MGPointParticleShder.vsh in Resources */,
 				2F5E974D23030B0B00C05063 /* pull_down_rain_gray_1.png in Resources */,

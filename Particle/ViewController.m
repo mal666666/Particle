@@ -39,10 +39,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //OpenGL ES上下文
-    self.mContext =[[EAGLContext alloc]initWithAPI:kEAGLRenderingAPIOpenGLES2];
+    self.mContext =[[EAGLContext alloc]initWithAPI:kEAGLRenderingAPIOpenGLES3];
     GLKView *view =[[GLKView alloc]initWithFrame:self.view.bounds context:self.mContext];
     [self.view addSubview:view];
-    view.frame =CGRectMake(0, 0, 1414, 896);
     _particleView =view;
     view.delegate =self;
     view.context =self.mContext;
@@ -248,7 +247,7 @@
     CALayer *videoLayer = [CALayer layer];
     parentLayer.frame = CGRectMake(0, 0, mainComposition.renderSize.width, mainComposition.renderSize.height);
     videoLayer.frame = CGRectMake(0, 0, mainComposition.renderSize.width, mainComposition.renderSize.height);
-    //aLayer.frame =videoLayer.frame;
+    aLayer.frame =CGRectMake(10, 10, CGRectGetWidth(videoLayer.frame)-20, CGRectGetHeight(videoLayer.frame)-20);
     [parentLayer addSublayer:videoLayer];
     [parentLayer addSublayer:aLayer];
     
@@ -279,7 +278,7 @@
 }
 
 -(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"IMG_5714" ofType:@"MOV"];
+    NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"IMG_7112" ofType:@"MOV"];
     //NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"压缩后" ofType:@"mp4"];
     NSString *outPath = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
     outPath =[outPath stringByAppendingString:@"mtv.mp4"];
